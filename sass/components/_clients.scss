@@ -1,0 +1,33 @@
+
+  .list-clients {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .clients-item {
+    flex-basis: calc((100% - 5 * 30px) / 6);
+    height: 92px;
+  }
+  
+  .clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: border var(--transition),fill var(--transition);
+
+    &:hover,
+    &:focus {
+    fill: var(--third-bg-cl);
+    border-color: var(--third-bg-cl);
+  }
+  }
+  
+  .clients-icon {
+    fill: #afb1b8;
+  }
+  
