@@ -1,8 +1,7 @@
 .features {
 
-  @media screen and (min-width: 480px) {
     &__box {
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -12,6 +11,7 @@
     border-radius: 4px;
     margin-bottom: 30px;
    }   
+
    &__subtitle--text {
     color: var(--third-text-cl);
     font-size: 14px;
@@ -23,20 +23,18 @@
 
    @media screen and (min-width: 768px) {
     display: flex;
-    &__item {flex-basis: calc((100% - 30px) / 2);
+    &__item {flex-basis: calc((100% - 30px) / 2);}
       &__box
-       { width: 354px;
-   }   }
+       { width: 354px;}   }  
 
    @media screen and (min-width: 1200px) {
     display: flex;
     gap: 30px;
     &__item {
-        flex-basis: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);}
         &__box {
-           width: 270px;
-
-   }   
+           width: 270px;} }
+  }
     
       // &__item {
       //   flex-basis: calc((100% - 90px) / 4);
@@ -59,9 +57,4 @@
       //   margin-top: 10px;
       //   font-weight: 400;
       // }
-    }
-  
-  
-  
-  
-  }}}}
+   
