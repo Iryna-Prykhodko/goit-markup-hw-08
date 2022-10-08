@@ -176,6 +176,12 @@ img {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .section-services {
+    display: none;
+  }
+}
+
 .title-works {
   font-weight: 700;
   font-size: 18px;

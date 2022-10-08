@@ -1,4 +1,7 @@
-// .section-services {
+ .section-services {
+  @media screen and (max-width: 767px){
+    display: none;
+  }
 //     padding-top: 0;
 //     .list-services {
 //       display: flex;
@@ -30,6 +33,6 @@
 //       bottom: 0;
 //       background: rgba(47, 48, 58, 0.8);
 //     }
-//   }
+ }
   
   
